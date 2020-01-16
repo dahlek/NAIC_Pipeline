@@ -1,4 +1,4 @@
-Consoldation of NAIC pipeline programs (sourced from /Desktop/programs_2/) for Hannah, 10/1/19
+Consoldation of NAIC pipeline programs (sourced from /Desktop/programs_2/)
 Written by Emma Dahl (dahlek@nmsu.edu, dahlemmak@gmail.com)
 
 Contains python scripts for the reduction and photometric/geometric calibration of hyperspectral image cubes.
@@ -14,4 +14,9 @@ Potential improvements:
 
 Potential improvements:
 -pix_mask_maker() takes a long time bc of the loop over every pixel. Probably a better way to compelte the search for hot pixels in the whole array at once. Same goes for pixel_corrector()
--rf_off() can probably be cleaned up a bit; there's some gratuitous variables and things. I also gave up on including pointing requirements that Paul describes in his thesis since the timing requirement seemed perfectly adequate. 
+-rf_off() can probably be cleaned up a bit; there's some gratuitous variables and things. I also gave up on including pointing requirements that Paul describes in his thesis since the timing requirement seemed perfectly adequate.
+
+
+Further general improvements that are forthcoming:
+-Converting to Python 3
+-Code that is usable outside of python notebooks 
