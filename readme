@@ -13,9 +13,12 @@ Potential improvements:
 2_Data_reduction_pipeline - Corrects wavelength (if necessary), attaches ephimerides and pointing info, creates pixel mask (if necessary), corrects for hot pixels and cosmic rays, divides by exposure time, corrects for fringing (if necessary), dividies flats, subtracts RF-off images, applies Gaussian filter to flats (if necessary)
 
 Potential improvements:
+-ephermis-attaching routines need to be cleaned up.
 -pix_mask_maker() takes a long time bc of the loop over every pixel. Probably a better way to compelte the search for hot pixels in the whole array at once. Same goes for pixel_corrector()
 -rf_off() can probably be cleaned up a bit; there's some gratuitous variables and things. I also gave up on including pointing requirements that Paul describes in his thesis since the timing requirement seemed perfectly adequate.
+-compilation programs need consistent docstrings
 
+3 - to be added: photometric calibration program
 
 Further general improvements that are forthcoming:
 -Converting to Python 3
