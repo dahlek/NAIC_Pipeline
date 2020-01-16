@@ -1,0 +1,17 @@
+Consoldation of NAIC pipeline programs (sourced from /Desktop/programs_2/) for Hannah, 10/1/19
+Written by Emma Dahl (dahlek@nmsu.edu, dahlemmak@gmail.com)
+
+Contains python scripts for the reduction and photometric/geometric calibration of hyperspectral image cubes.
+
+Description of notebooks:
+1_image_checker.ipynb - Program used to quickly examine data by looping through lists of fits files. Much of the pipeline requires input lists of individual cubes, so this notebook contains several loops that print out information and allow a user to copy and paste an image list into a new text file given a list of all images in a given folder. Routine to check for oversaturation is also here. 
+
+Potential improvements:
+-Can find way to avoid the manual copy-and-pasting of image lists to seperate cubes.
+
+
+2_Data_reduction_pipeline - Corrects wavelength (if necessary), attaches ephimerides and pointing info, creates pixel mask (if necessary), corrects for hot pixels and cosmic rays, divides by exposure time, corrects for fringing (if necessary), dividies flats, subtracts RF-off images, applies Gaussian filter to flats (if necessary)
+
+Potential improvements:
+-pix_mask_maker() takes a long time bc of the loop over every pixel. Probably a better way to compelte the search for hot pixels in the whole array at once. Same goes for pixel_corrector()
+-rf_off() can probably be cleaned up a bit; there's some gratuitous variables and things. I also gave up on including pointing requirements that Paul describes in his thesis since the timing requirement seemed perfectly adequate. 
