@@ -1,5 +1,7 @@
 Consoldation of NAIC pipeline programs (sourced from /Desktop/programs_2/)
 Written by Emma Dahl (dahlek@nmsu.edu, dahlemmak@gmail.com)
+If you use this code or pipeline, please credit Emma Dahl.
+
 
 Contains python scripts for the reduction and photometric/geometric calibration of hyperspectral image cubes.
 
@@ -12,7 +14,6 @@ Description of notebooks:
 
 Potential improvements:
 -Can find way to avoid the manual copy-and-pasting of image lists to seperate cubes.
-
 
 2_Data_reduction_pipeline - Corrects wavelength (if necessary), attaches ephimerides and pointing info, creates pixel mask (if necessary), corrects for hot pixels and cosmic rays, divides by exposure time, corrects for fringing (if necessary), dividies flats, subtracts RF-off images, applies Gaussian filter to flats (if necessary)
 
