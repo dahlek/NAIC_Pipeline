@@ -1,13 +1,13 @@
 Consoldation of NAIC pipeline programs (sourced from /Desktop/programs_2/)
 Written by Emma Dahl (dahlek@nmsu.edu, dahlemmak@gmail.com)
-If you use this code or pipeline, please credit Emma Dahl.
-
+If you use this code or pipeline, please credit me! Or at least let me know you're using my programs.
 
 Contains python scripts for the reduction and photometric/geometric calibration of hyperspectral image cubes.
 
 These programs have been written specifically to reduce and calibrate data from the NMSU Acousto-optic Imaging Camera (NAIC) that have been obtained at the Apache Point Observatory 3.5-m telescope. However, some of these routines might prove useful for the reduction/calibration of other data sets. I included a number of user queries in Data_pipeline so that it can be ran to only flat-divide, only correct for hot pixels, etc.
 
 This pipeline is also still a work in progress (and there are several improvements that can be made, thanks to having written a chunk of this early in my grad school career). Below are a description of the notebooks and the things on my to-do list to improve them.
+
 
 Description of notebooks:
 1_image_checker.ipynb - Program used to quickly examine data by looping through lists of fits files. Much of the pipeline requires input lists of individual cubes, so this notebook contains several loops that print out information and allow a user to copy and paste an image list into a new text file given a list of all images in a given folder. Routine to check for oversaturation is also here. 
@@ -19,12 +19,13 @@ Potential improvements:
 
 Potential improvements:
 -ephermis-attaching routines need to be cleaned up.
--pix_mask_maker() takes a long time bc of the loop over every pixel. Probably a better way to compelte the search for hot pixels in the whole array at once. Same goes for pixel_corrector()
 -rf_off() can probably be cleaned up a bit; there's some gratuitous variables and things. I also gave up on including pointing requirements that Paul describes in his thesis since the timing requirement seemed perfectly adequate.
 -compilation programs need consistent docstrings
 
 3 - to be added: photometric calibration program
 
+
 Further general improvements that are forthcoming:
 -Converting to Python 3
 -Code that is usable outside of python notebooks 
+
