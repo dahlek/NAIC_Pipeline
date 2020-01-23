@@ -19,6 +19,7 @@ Potential improvements:
 
 Potential improvements:
 -ephermis-attaching routines need to be cleaned up.
+-add time span and time step explanation for generating ephemerides in attach_eph
 -rf_off() can probably be cleaned up a bit; there's some gratuitous variables and things. I also gave up on including pointing requirements that Paul describes in his thesis since the timing requirement seemed perfectly adequate.
 -compilation programs need consistent docstrings
 
