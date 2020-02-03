@@ -1,0 +1,7 @@
+Description of how to run this pipeline; order of operations.
+
+Data reduction:
+1. Image_checker: sort and review data and lists of images
+2. Data_reduction_pipeline: flat division, pixel correction, etc.
+Photometry:
+3. Ap_phot:

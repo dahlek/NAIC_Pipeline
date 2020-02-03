@@ -15,14 +15,26 @@ Description of notebooks:
 Potential improvements:
 -Can find way to avoid the manual copy-and-pasting of image lists to seperate cubes.
 
+
 2_Data_reduction_pipeline - Corrects wavelength (if necessary), attaches ephimerides and pointing info, creates pixel mask (if necessary), corrects for hot pixels and cosmic rays, divides by exposure time, corrects for fringing (if necessary), dividies flats, subtracts RF-off images, applies Gaussian filter to flats (if necessary)
 
 Potential improvements:
 -rf_off() can probably be cleaned up a bit; there's some gratuitous variables and things. I also gave up on including pointing requirements that Paul describes in his thesis since the timing requirement seemed perfectly adequate.
 -compilation programs need consistent docstrings
 
-3 - to be added: photometric calibration program
 
+3_Ap_phot - Set of functions that append airmass, uses Gaussin to fit and find stars and conduct aperture photometry. 
+
+Potential improvements:
+- Is there a better way to implement the routine that fixes hot pixels in the border?
+- Clean up docstring in ap_phot()
+- Lots of print statements and comments in ap_phot() that might be unnecessary
+
+
+4_Tau_flux_fit - Uses the flux of calstars, as found by Ap_phot, to derive the optical depth of the atmosphere as a function of wavelength, and the flux of those stars at the top of the atmsophere.
+
+Potential improvements:
+- Needs to be generalized before pushing to github.
 
 Further general improvements that are forthcoming:
 -Converting to Python 3
