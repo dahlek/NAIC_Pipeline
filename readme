@@ -34,7 +34,11 @@ Potential improvements:
 4_Tau_flux_fit - Uses the flux of calstars, as found by Ap_phot, to derive the optical depth of the atmosphere as a function of wavelength, and the flux of those stars at the top of the atmsophere.
 
 Potential improvements:
+- add rest of program to notebook on git
 - Needs to be generalized before pushing to github.
+- Better docstrings for individual functions
+- Is it a safe assumption that Vega's magnitude is constant?
+- Fix dictionary loops now that they're ordered
 
 Further general improvements that are forthcoming:
 -Converting to Python 3

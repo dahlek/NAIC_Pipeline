@@ -1,7 +1,8 @@
-Description of how to run this pipeline; order of operations.
+Brief description of how to run this pipeline; order of operations.
 
 Data reduction:
 1. Image_checker: sort and review data and lists of images
-2. Data_reduction_pipeline: flat division, pixel correction, etc.
+2. Data_reduction_pipeline: flat division, pixel correction, RF-off subtraction, Gaussian filters, etc.
 Photometry:
-3. Ap_phot:
+3. Ap_phot: Conduct aperture photometry of cal star cubes
+4. Tau_flux_fit: Derive average optical depth of the atmosphere, find star flux at top of atmosphere, use these values to derive photometric conversion factor
