@@ -29,6 +29,7 @@ Potential improvements:
 - Is there a better way to implement the routine that fixes hot pixels in the border?
 - Clean up docstring in ap_phot()
 - Lots of print statements and comments in ap_phot() that might be unnecessary
+- Make sure SNR is being measured correctly
 
 
 4_Tau_flux_fit - Uses the flux of calstars, as found by Ap_phot, to derive the optical depth of the atmosphere as a function of wavelength, and the flux of those stars at the top of the atmsophere.
