@@ -41,6 +41,7 @@ Potential improvements:
 - Is it a safe assumption that Vega's magnitude is constant?
 - Fix dictionary loops now that they're ordered
 - Clean up F_top_finder - dictionaries get a little messy
+- Add error to F_top_finder
 
 Further general improvements that are forthcoming:
 -Converting to Python 3
