@@ -8,8 +8,10 @@ These programs have been written specifically to reduce and calibrate data from 
 
 This pipeline is also still a work in progress (and there are several improvements that can be made, thanks to having written a chunk of this early in my grad school career). Below are a description of the notebooks and the things on my to-do list to improve them.
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Description of notebooks:
+
 1_image_checker.ipynb - Program used to quickly examine data by looping through lists of fits files. Much of the pipeline requires input lists of individual cubes, so this notebook contains several loops that print out information and allow a user to copy and paste an image list into a new text file given a list of all images in a given folder. Routine to check for oversaturation is also here. 
 
 Potential improvements:
@@ -32,16 +34,21 @@ Potential improvements:
 - Make sure SNR is being measured correctly
 
 
-4_Tau_flux_fit - Uses the flux of calstars, as found by Ap_phot, to derive the optical depth of the atmosphere as a function of wavelength, and the flux of those stars at the top of the atmsophere.
+4_Atm_fitting - Uses the flux of calstars, as found by Ap_phot, to derive the optical depth of the atmosphere as a function of wavelength, and the flux of those stars at the top of the atmsophere. Also finds beta, the photometric conversion factor.
 
 Potential improvements:
-- add rest of program to notebook on git
-- Needs to be generalized before pushing to github.
 - Better docstrings for individual functions
 - Is it a safe assumption that Vega's magnitude is constant?
-- Fix dictionary loops now that they're ordered
+
+
+5_Geo_cal
+~coming soon~
+
+
+6_IF_Maker - Uses the results of these programs to calculate an I/F spectrum of Jupiter's atmosphere
+
+
 
 Further general improvements that are forthcoming:
 -Converting to Python 3
 -Code that is usable outside of python notebooks 
-
