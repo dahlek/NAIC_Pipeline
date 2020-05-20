@@ -49,7 +49,10 @@ Potential improvements:
 
 6_IF_Maker - Uses the results of these programs to calculate an I/F spectrum of Jupiter's atmosphere
 
-
+7_Spectra_extractor - 
+ Potential improvements:
+-use different i/o commands to avoid manually copying and pasting the header for the geo info file
+-Seems to be a bit of drift in final latitude values - check as to why.
 
 Further general improvements that are forthcoming:
 -Converting to Python 3
