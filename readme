@@ -54,6 +54,10 @@ Potential improvements:
 -use different i/o commands to avoid manually copying and pasting the header for the geo info file
 -Seems to be a bit of drift in final latitude values - check as to why.
 
+9_spx_maker - uses info from IF_maker and Sepctra_extractor to make .spx files for NEMESIS. 
+Improvements:
+-Use i/o commands instead of manually copying and pasting info for .spx file
+
 Further general improvements that are forthcoming:
 -Converting to Python 3
 -Code that is usable outside of python notebooks 
