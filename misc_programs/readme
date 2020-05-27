@@ -1,0 +1,3 @@
+Scripts and programs outside of the direct NAIC pipeline
+
+Seeing_finder - Uses calstar cubes to find the FWHM of the star as a function of wavelength and calculate the average seeing for a given cube.
