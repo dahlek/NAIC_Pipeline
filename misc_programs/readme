@@ -1,3 +1,5 @@
 Scripts and programs outside of the direct NAIC pipeline
 
 Seeing_finder - Uses calstar cubes to find the FWHM of the star as a function of wavelength and calculate the average seeing for a given cube.
+
+Spectral_resolution_calculator - calculates the average spectral resolution of NAIC filters based on how the FWHM of the central lobe changes as a function of wavelength.
