@@ -39,6 +39,7 @@ Potential improvements:
 Potential improvements:
 - Better docstrings for individual functions
 - Is it a safe assumption that Vega's magnitude is constant?
+- Error w/ wl_tau
 
 
 4.5_Data_cube_maker - Program that, given a list and location of images that have the planet center and north pole position angle saved in the header, rotates and centers the images and saves them into a single FITS file
