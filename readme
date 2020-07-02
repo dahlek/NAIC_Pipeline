@@ -62,3 +62,4 @@ Improvements:
 Further general improvements that are forthcoming:
 -Converting to Python 3
 -Code that is usable outside of python notebooks 
+-Make own fiducial disk/center-fitting code

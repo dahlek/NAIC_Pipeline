@@ -1,0 +1,10 @@
+Running Paul’s IDL script to find planet’s center:
+1. Run Geo_cal_prep. Make sure the angle PNORTH in the header is correct for the image’s orientation (this will determine the angle the fiducial disks are rotated at; if they are misaligned, the planet center fit might be off.)
+2. Copy prepped data and input_list to work computer, to the directory you listed for the input_file (directory2 in geocal_preparer)
+3. Open IDL (you need to make sure you have relevant details setup in .cshrc file already)
+4. Compile corr_disk2.pro:
+> .r corr_disk2.pro
+5. Run corr_disk2.pro (do NOT add tildas; this'll break the C program that makes the fiducial disk images):
+> corr_disk2, '/home/users/dahlek/PJ19_geocal_jup4/input_list4', '/home/users/dahlek/PJ19_geocal_jup4/', FWHM=17.0, /MAKENAVMAPS, /SHOW
+6. Copy navigated data back to laptop; the headers will now contain the planet’s center point in x and y
+
