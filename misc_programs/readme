@@ -8,6 +8,8 @@ Disk_averaged_spec_maker - Program to pull a raw spectrum from a list of Jupiter
 
 F_std_convolver - Program for convolving filter functions with standard model spectra.
 
+Plate_scale_finder - Finds the plate scale based on binary star measurements
+
 To do:
 -Add spectral leakage fix (in NAIC_pipeline_testrun?)
 -Add function that scales standard spectra (original version in http://localhost:8888/notebooks/Desktop/NAIC_pipeline_testrun/NAICprograms_june2018/photometry/Standard_spec_extraction_950.ipynb)
