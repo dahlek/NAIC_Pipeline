@@ -10,6 +10,8 @@ F_std_convolver - Program for convolving filter functions with standard model sp
 
 Plate_scale_finder - Finds the plate scale based on binary star measurements
 
+Spectral_leakage_fix - uses NAIC filter functions and Karkoschka disk-averaged spectrum to find a corrective factor that can be applied to a NAIC I/F spectrum
+
 To do:
--Add spectral leakage fix (in NAIC_pipeline_testrun?)
+-Maybe make Spectral_leakage_fix a bit more readable
 -Add function that scales standard spectra (original version in http://localhost:8888/notebooks/Desktop/NAIC_pipeline_testrun/NAICprograms_june2018/photometry/Standard_spec_extraction_950.ipynb)
