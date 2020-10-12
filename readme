@@ -43,6 +43,7 @@ Potential improvements:
 
 
 4.5_Data_cube_maker - Program that, given a list and location of images that have the planet center and north pole position angle saved in the header, rotates and centers the images and saves them into a single FITS file
+*is offset of 6.7 degrees added here for necessary dates?
 
 5_Geo_cal
 ~coming soon~
