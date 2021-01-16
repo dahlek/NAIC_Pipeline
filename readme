@@ -45,13 +45,13 @@ Potential improvements:
 4.5_Data_cube_maker - Program that, given a list and location of images that have the planet center and north pole position angle saved in the header, rotates and centers the images and saves them into a single FITS file
 *is offset of 6.7 degrees added here for necessary dates?
 
-5_Geo_cal
-~coming soon~
+5_Geo_cal_prep - prepares image cubes to run w/ Paul Strycker's IDL mapping code.
 
+6_Data_cube_maker - after being navigated with disk_corr.pro, align and crop images and save into a data cube
+ 
+7_IF_Maker - Uses the results of these programs to calculate an I/F spectrum of Jupiter's atmosphere
 
-6_IF_Maker - Uses the results of these programs to calculate an I/F spectrum of Jupiter's atmosphere
-
-7_Spectra_extractor - 
+8_Spectra_extractor - 
  Potential improvements:
 -use different i/o commands to avoid manually copying and pasting the header for the geo info file
 -Seems to be a bit of drift in final latitude values - check as to why.
