@@ -15,3 +15,4 @@ Spectral_leakage_fix - uses NAIC filter functions and Karkoschka disk-averaged s
 To do:
 -Maybe make Spectral_leakage_fix a bit more readable
 -Add function that scales standard spectra (original version in http://localhost:8888/notebooks/Desktop/NAIC_pipeline_testrun/NAICprograms_june2018/photometry/Standard_spec_extraction_950.ipynb)
+-Add generalized notebook that takes Laser measurements and makes FTFs (use Desktop/Filter_Transmission_Functions/727_filter_tests.ipynb as reference)
