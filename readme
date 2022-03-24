@@ -1,5 +1,5 @@
 Consoldation of NAIC pipeline programs (sourced from /Desktop/programs_2/)
-Written by Emma Dahl (dahlek@nmsu.edu, dahlemmak@gmail.com)
+Written by Emma Dahl (dahlemmak@gmail.com)
 If you use this code or pipeline, please credit me! Or at least let me know you're using my programs.
 
 Contains python scripts for the reduction and photometric/geometric calibration of hyperspectral image cubes.
