@@ -6,7 +6,7 @@ Contains python scripts for the reduction and photometric/geometric calibration 
 
 These programs have been written specifically to reduce and calibrate data from the NMSU Acousto-optic Imaging Camera (NAIC) that have been obtained at the Apache Point Observatory 3.5-m telescope. However, some of these routines might prove useful for the reduction/calibration of other data sets. I included a number of user queries in Data_pipeline so that it can be ran to only flat-divide, only correct for hot pixels, etc.
 
-This pipeline is also still a work in progress (and there are several improvements that can be made, thanks to having written a chunk of this early in my grad school career). Below are a description of the notebooks and the things on my to-do list to improve them.
+!! This pipeline is also still a work in progress (and there are several improvements that can be made, thanks to having written a chunk of this early in my grad school career). Below are a description of the notebooks and the things on my to-do list to improve them.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
